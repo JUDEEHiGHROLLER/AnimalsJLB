@@ -1,4 +1,4 @@
-package edu.saintjoe.cs.brianc.animals;
+package edu.saintjoe.cs.judeb.animals;
 
 public class Animal {
 	
