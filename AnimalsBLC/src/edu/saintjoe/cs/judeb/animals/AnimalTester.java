@@ -14,12 +14,15 @@ public class AnimalTester {
 		// This instantiation uses the fourth constructor
 		// This instantiation uses the fifth constructor
 		// This instantiation uses the sixth constructor
-		
+		Animal myCollection = new Animal();
+		Animal myFriend = new Animal();
+	
 		
 		
 		System.out.println("My animal has " + myPet.location + " as its location");
 		System.out.println("My animal has " + myLocalPet.location + " as its location");
-
+		System.out.println("My animal has " + myCollection.picture + "as its picture");
+		System.out.println("My animal has " + myFriend.species + "as its picture");
 	}
 
 }

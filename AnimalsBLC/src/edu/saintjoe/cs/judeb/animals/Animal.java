@@ -5,6 +5,7 @@ public class Animal {
 	String picture;
 	String location;
 	int weight;
+	String species;
 	
 	/* ---- */
 	
@@ -44,7 +45,10 @@ public class Animal {
 	public String makeNoise() {
 		return ("Ommmmmmmmmmmmmm");
 	}
-	
+	public Animal(String species){
+		this.species = species;
+		
+	}
 	public void eat () {
 		System.out.println("Animal is eating");
 	}
